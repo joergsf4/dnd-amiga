@@ -1,0 +1,9 @@
+[fs-uae]
+# Target machine of the port: Amiga 500, 68000, OCS, 512 KB chip + 512 KB slow RAM
+# (the classic "A500 with trapdoor expansion" most games of the era assumed).
+amiga_model = A500
+chip_memory = 512
+slow_memory = 512
+floppy_drive_speed = 0
+window_width = 960
+window_height = 768

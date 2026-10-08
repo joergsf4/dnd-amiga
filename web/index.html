@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>D&amp;D Dungeon Crawler – Amiga-Prolog im Browser</title>
+<style>
+  :root { --bg: #140a10; --fg: #e8d8d0; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg); overflow: hidden;
+               font: 13px/1.4 system-ui, sans-serif; }
+  body { display: flex; flex-direction: column; }
+  #game { flex: 1; min-height: 0; border: none; }
+  footer { flex: none; padding: 6px 12px; text-align: center; background: #0a0508; }
+  kbd { background: #3a1a24; border-radius: 3px; padding: 0 5px; }
+</style>
+</head>
+<body>
+<iframe id="game" allow="autoplay; fullscreen; gamepad"
+        src="https://vAmigaWeb.github.io/#AROS=true#https://joergsf4.github.io/dnd-amiga/dnd.adf"></iframe>
+<footer>
+  Gehen/Drehen: <kbd>Pfeiltasten</kbd> / <kbd>WASD</kbd> &nbsp; Benutzen: <kbd>Q</kbd> &nbsp;
+  Gruppe: <kbd>E</kbd> &nbsp; Karte: <kbd>M</kbd> &nbsp;
+  (Emulator: Amiga 500, Kickstart-Ersatz AROS, 1&nbsp;MB RAM — Audio ggf. per Klick freigeben)
+</footer>
+</body>
+</html>

@@ -1,0 +1,5 @@
+out/
+site/
+.DS_Store
+# Kickstart ROMs are copyrighted: kept locally, never published
+roms/*.rom

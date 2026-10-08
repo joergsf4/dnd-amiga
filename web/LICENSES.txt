@@ -1,0 +1,11 @@
+D&D Dungeon Crawler (Amiga) in the browser
+
+A fan project inspired by Baldur's Gate 3 and Dungeons & Dragons; not affiliated with Larian
+Studios or Wizards of the Coast. All graphics, music and sounds are made for this project.
+
+The disk image (dnd.adf) boots like a real Amiga 500 floppy. In the browser it runs on
+vAmigaWeb (GPL-3.0, https://github.com/vAmigaWeb/vAmigaWeb), a WebAssembly build of Dirk
+Hoffmann's vAmiga, hosted unmodified at https://vAmigaWeb.github.io/. Because a real Kickstart
+ROM is copyrighted and cannot be published, the emulator uses AROS (https://aros.sourceforge.io/)
+instead -- a free, open-source reimplementation of AmigaOS -- which vAmigaWeb bundles for exactly
+this purpose.

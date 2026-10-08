@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Amiga: Build ADF",
+            "type": "shell",
+            "command": "${workspaceFolder}/build.sh",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "Amiga: Clean",
+            "type": "shell",
+            "command": "${workspaceFolder}/build.sh clean",
+            "group": "build"
+        },
+        {
+            "label": "Amiga: Run in FS-UAE",
+            "type": "shell",
+            "command": "${workspaceFolder}/run.sh",
+            "group": "test",
+            "dependsOn": "Amiga: Build ADF"
+        }
+    ]
+}
